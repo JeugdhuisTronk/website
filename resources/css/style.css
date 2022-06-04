@@ -48,7 +48,7 @@ main {
 /* tweaking navbar-light colors and font-weight */
 
 .nav-item {
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 0.75rem;
   border-top: 1px solid orange;
 }
 
@@ -221,7 +221,7 @@ th {
   }
   .spotlight,
   #navbar-index {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 }
 
