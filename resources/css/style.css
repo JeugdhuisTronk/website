@@ -202,13 +202,12 @@ th {
   transform: translate(-50%, -50%);
 }
 
-/* .flipperkast-img {
-  float: right;
-  width: 30%;
-} */
-
 .instructions-card {
   border-radius: 2rem;
+}
+
+.vortex-button-img {
+  width: 100px;
 }
 
 /* Small breakpoint */
