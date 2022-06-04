@@ -1,0 +1,242 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+main {
+  margin-top: 2.5rem;
+}
+
+/* speciale navbar voor index pagina */
+
+#navbar-index {
+  background-color: #ffc107;
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
+  /*    font-size: 1.25rem;*/
+  font-size: 1rem;
+}
+
+.navbar {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+#logo-index {
+  height: 35px;
+  transition: 0.4s;
+}
+
+#logo {
+  height: 35px;
+}
+
+/* tweaking navbar-light colors and font-weight */
+
+.nav-item {
+  padding: 0 0.5rem 0 0.5rem;
+  border-top: 1px solid orange;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: normal;
+}
+
+.navbar .navbar-nav .active > .nav-link {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  font-weight: bold;
+  color: white;
+}
+
+/* nav icons */
+
+.nav-item .nav-icon {
+  height: 20px;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+.nav-item .nav-link:hover .nav-icon {
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+/* ------ */
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+em {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.carousel-item .img-fluid {
+  width: 100%;
+}
+
+.carousel-caption h2 {
+  text-shadow: 0 0 15px black, 0 0 15px black;
+}
+
+.carousel-caption p {
+  text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black,
+    0 0 10px black;
+}
+
+.spotlight {
+  margin-top: 3rem;
+}
+
+.openingsuren-img {
+  background-image: url(../img/glazen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.open {
+  font-weight: normal;
+}
+
+.prijslijst-img {
+  background-image: url(../img/tap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 2rem;
+}
+
+th {
+  font-weight: normal;
+}
+
+.bestuur {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.bestuur img {
+  width: 70%;
+  margin: 3rem;
+}
+
+/* Styling for Masonry */
+
+#activiteiten .gutter-sizer {
+  width: 0%;
+}
+
+#activiteiten .card,
+#activiteiten .grid-sizer {
+  width: 100%;
+}
+
+#activiteiten .card {
+  margin-bottom: 18px;
+}
+
+.card-header {
+  font-weight: normal;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* Arcade */
+
+.instructions-card {
+  border-radius: 2rem;
+}
+
+/* Small breakpoint */
+
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 1.15rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .spotlight,
+  #navbar-index {
+    font-size: 1.25rem;
+  }
+}
+
+/* Medium breakpoint */
+
+@media screen and (min-width: 768px) {
+  /* activeiten-masonry aanpassen */
+  #activiteiten .gutter-sizer {
+    width: 2%;
+  }
+  #activiteiten .card,
+  #activiteiten .grid-sizer {
+    width: 49%;
+  }
+  #activiteiten .card {
+    margin-bottom: 18px;
+  }
+  #navbar-index {
+    background-color: transparent;
+  }
+  .nav-item {
+    border-top: none;
+  }
+  #navbar-index {
+    text-shadow: 0 0 15px black, 0 0 15px black;
+  }
+}
+
+/* Large breakpoint */
+
+@media screen and (min-width: 992px) {
+  /* activeiten-masonry aanpassen */
+  #activiteiten .gutter-sizer {
+    width: 2%;
+  }
+  #activiteiten .card,
+  #activiteiten .grid-sizer {
+    width: 32%;
+  }
+  #activiteiten .card {
+    margin-bottom: 18px;
+  }
+  /* speciale navbar voor index */
+  #logo-index {
+    height: 150px;
+  }
+  #navbar-index {
+    /*        font-size: 1.25rem;*/
+  }
+}
