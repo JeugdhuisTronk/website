@@ -218,6 +218,11 @@ th {
   width: 100px;
 }
 
+.tip-img {
+  margin-bottom: 1rem;
+  width: 60%;
+}
+
 /* Small breakpoint */
 
 @media screen and (min-width: 576px) {
@@ -230,6 +235,10 @@ th {
   .spotlight,
   #navbar-index {
     font-size: 1.15rem;
+  }
+
+  .tip-img {
+    width: 50%;
   }
 }
 
@@ -255,6 +264,9 @@ th {
   }
   #navbar-index {
     text-shadow: 0 0 15px black, 0 0 15px black;
+  }
+  .tip-img {
+    width: 100%;
   }
 }
 
